@@ -4,13 +4,11 @@ import java.util.*;
 
 public class Main{
     public static void main(String args[]) {
-
-		  System.out.println("welcome to userRegister");
-      Scanner sc = new Scanner(System.in);
-	  
-      userLastName LastName = new userLastName();
-      String lastname = sc.nextLine();
-      System.out.println(lastname + ": "+ LastName.isValidLastName(lastname));
+      	Scanner sc = new Scanner(System.in);
+	System.out.println("enter userlastname");  
+      	userLastName LastName = new userLastName();
+      	String lastname = sc.nextLine();
+      	System.out.println(lastname + ": "+ LastName.isValidLastName(lastname));
 	  
     }
 }
