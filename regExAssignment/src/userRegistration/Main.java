@@ -24,5 +24,9 @@ public class Main{
       String mobilenumber = sc.nextLine();
       System.out.println(mobilenumber + ": "+ MobileNumber.isValidMobileNumber(mobilenumber));
 	  
+	  passwordUC4 password = new passwordUC4();
+      String Password = sc.nextLine();
+      System.out.println(Password + ": "+ password.isValidFirstName(Password));
+	  
     }
 }
