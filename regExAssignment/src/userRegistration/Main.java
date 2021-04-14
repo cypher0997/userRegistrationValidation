@@ -20,5 +20,9 @@ public class Main{
       String email = sc.nextLine();
       System.out.println(email + ": " + Email.isValidEmail(email));
 	  
+	  userMobileNumber MobileNumber = new userMobileNumber();
+      String mobilenumber = sc.nextLine();
+      System.out.println(mobilenumber + ": "+ MobileNumber.isValidMobileNumber(mobilenumber));
+	  
     }
 }
