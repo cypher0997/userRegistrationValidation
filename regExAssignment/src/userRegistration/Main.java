@@ -7,10 +7,6 @@ public class Main{
 
 		  System.out.println("welcome to userRegister");
       Scanner sc = new Scanner(System.in);
-		
-	  userFirstName FirstName = new userFirstName();
-      String firstname = sc.nextLine();
-      System.out.println(FirstName + ": "+ FirstName.isValidFirstName(firstname));
 	  
       userLastName LastName = new userLastName();
       String lastname = sc.nextLine();
