@@ -16,5 +16,9 @@ public class Main{
       String lastname = sc.nextLine();
       System.out.println(lastname + ": "+ LastName.isValidLastName(lastname));
 	  
+	  userEmail Email = new userEmail();
+      String email = sc.nextLine();
+      System.out.println(email + ": " + Email.isValidEmail(email));
+	  
     }
 }
