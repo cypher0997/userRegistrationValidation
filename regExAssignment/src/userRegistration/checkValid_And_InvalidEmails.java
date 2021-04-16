@@ -2,11 +2,11 @@ package userRegistration;
 import java.util.regex.*;
 import java.util.Scanner;
 
-class userFirstName {
+class checkValid_And_InvalidEmails {
   
     public boolean isValidFirstName(String FirstName) {
           
-        String regex = "^[A-Za-z0-9+_-]+[.]@[A-Z a-z]+[.]$";
+        String regex = "^[a-z0-9]{3,}(.[0-9a-z]+)*@[a-z]{2,}.(com|edu)(co.in)*$";
 
         Pattern p = Pattern.compile(regex);
   
