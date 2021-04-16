@@ -6,7 +6,7 @@ class userFirstName {
   
     public boolean isValidFirstName(String FirstName) {
           
-        String regex = "^[A-Za-z0-9+_-]+[.]@[A-Z a-z]+[.]$";
+        String regex = "[A-Z]{1}[a-z]{2,10}$";
 
         Pattern p = Pattern.compile(regex);
   
